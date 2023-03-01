@@ -1,17 +1,10 @@
 html {
     background-color: black;
 }
-body {
-    height: 100%;
-    width: 100%;
-}
 #title {
     color:aquamarine;
     text-align: center;
 }
 #title-holder {
     border: 1px solid white;
-    display: flex;
-    height: 40%;
-    width: 50%;
 }
