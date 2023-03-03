@@ -1,9 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rampart+One&family=Righteous&display=swap');
 
-html, body { height: 100%; }
+html, body {margin: 0; height: 100%; overflow: hidden}
 body {
   background-color: black;
 }
+
+.nocopy {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 #title {
     position: relative;
     top: 40%;
@@ -22,4 +32,12 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+#footer {
+  position: relative;
+  top: 78%;    
+  color: white;  
+  text-align: center;
+  justify-content: center;
+  font-family: 'Rampart One', cursive;  
 }
