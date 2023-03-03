@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Righteous&display=swap');
+
 html, body { height: 100%; }
 body {
   background-color: black;
@@ -6,13 +8,17 @@ body {
     position: relative;
     top: 40%;
     color:aquamarine;
+    font-family: 'Righteous', cursive;
     display: flex;
     text-align: center;
     justify-content: center;
 }
 #phrase {
   position: relative;
+  top: 41%;
   color: white;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
   text-align: center;
