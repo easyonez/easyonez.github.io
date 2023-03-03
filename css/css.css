@@ -1,10 +1,19 @@
-html {
-    background-color: black;
+html, body { height: 100%; }
+body {
+  background-color: black;
 }
 #title {
+    position: relative;
+    top: 40%;
     color:aquamarine;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
-#title-holder {
-    border: 1px solid white;
+#phrase {
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
