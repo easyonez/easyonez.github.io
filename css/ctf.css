@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rampart+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap');
+
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+body {
+  background-color: black;
+}
+
+.nocopy {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#title {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+  justify-content: normal;
+  top: 0%
+}

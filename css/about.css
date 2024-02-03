@@ -1,0 +1,50 @@
+#title {
+    /* position: absolute; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* left: 0; */
+    /* right: 0; */
+    width: 300px;
+    /* height: 50px; */
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    /* justify-content: normal; */
+    top: 0%;
+  }
+  #rectangle{
+    font-family: 'M PLUS Code Latin', monospace;
+    font-size: 15px;
+    margin: 0 auto;
+    width:95vw;
+    height:70vh;
+    background:#1F1F1F;
+    position: absolute;
+    top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    padding: 5px;
+    padding-left: 15px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+  }
+
+  #about_title {
+    color: aquamarine;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 3vw;
+    top: 12vh;
+    font-family: 'M PLUS Code Latin', monospace;
+  }
+  #about_title:hover {
+    color: white;
+  }
+.row:hover {
+  color: aquamarine;
+  cursor: text;
+}

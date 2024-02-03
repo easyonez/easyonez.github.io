@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rampart+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&display=swap');
+
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+body {
+  background-color: black;
+}
+
+.nocopy {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#phrase {
+  position: relative;
+  top: 36%;
+  color: white;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px 5px aquamarine;
+}
+#footer {
+  position: absolute;
+  top: 95%;
+  left: 4;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Rampart One', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+#logo-holder {
+  justify-content: center;
+  /* position: relative; */
+  position: absolute;
+  top: 30vh;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.marginright {
+  margin-right: 1em;
+}
+.social:hover {
+    cursor: pointer;
+}
+#kick {
+  font-family: 'Righteous', cursive;
+  color: white;
+  text-decoration: none;
+  margin-top: 1em;
+}
+a:visited { 
+  color: white;
+  text-decoration: none; 
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: aquamarine;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
+#title {
+  /* position: relative; */
+  position: absolute;
+  top: 20vh;
+  color:aquamarine;
+  font-family: 'Righteous', cursive;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+#all {
+  display: table;
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+  margin: 0 auto;
+  justify-content: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.about:hover {
+  background-color: aquamarine;
+  color: black;
+  width: 90px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+
+}
+.about {
+  font-family: 'M PLUS Code Latin', monospace;
+  font-size: 12px;
+  display: table-cell;
+  position: relative;
+  width: 80px;
+  height: 25px;
+  color: white;
+  vertical-align: middle;
+  transition: width 0,5s;
+  transition: height 0,5s;
+  border: 2px solid white;
+  border-radius: 10px;
+
+
+}
