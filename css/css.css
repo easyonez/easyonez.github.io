@@ -23,3 +23,8 @@ body {
   margin-left: 10%;
   margin-top: 10%;
 }
+a:hover {
+  color: #0078db;
+  text-decoration: none;
+  cursor: pointer;
+}
